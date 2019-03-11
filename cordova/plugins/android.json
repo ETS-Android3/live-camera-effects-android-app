@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    },
+    "cordova.plugins.diagnostic": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    },
+    "cordova-plugin-downloadmanager": {
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.camerafx.camerafx"
+    }
+  }
+}

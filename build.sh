@@ -1,0 +1,1 @@
+npm run build && rm -r ./cordova/www/static && cp -r ./dist/static ./cordova/www/static && rm ./cordova/www/index.html && cp ./dist/index.html ./cordova/www/index.html && sed -i -e 's/\/static/static/g' ./cordova/www/index.html
